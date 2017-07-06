@@ -1,9 +1,12 @@
 $(document).ready(function() {
     $("#formOne").change(function(event) {
+      // var animal = $("input:radio[name=animal]:checked").val();
       var animal = $("#animal").val();
-    if (animal === "1") {
+    if (animal === "sloths") {
       $('#sloths2').show();
-    } else if (animal === "2") {
+      $("#capybaras2").hide();
+      $("#manatees2").hide();
+    } else if (animal === "manatees") {
       $('#manatees2').show();
     } else {
       $('#capybaras2').show();
