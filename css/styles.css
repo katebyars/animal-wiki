@@ -1,0 +1,7 @@
+h1  {
+  text-align: center;
+}
+
+#sloths2, #manatees2, #capybaras2 {
+  display: none;
+}
